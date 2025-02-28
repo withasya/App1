@@ -5,7 +5,7 @@ builder.Services.AddControllersWithViews();
 
 var app = builder.Build();
 
-app.MapGet("/selam", () => "Hello, World!!"); //benim yazdýðým içerik local hosttan sonra yazýlýnca içerik dönüyor
+app.MapGet("/hello", () => "Hello, World!!"); //benim yazdýðým içerik local hosttan sonra yazýlýnca içerik dönüyor
 
 
 // Configure the HTTP request pipeline.
